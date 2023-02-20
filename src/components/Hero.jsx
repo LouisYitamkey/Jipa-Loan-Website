@@ -2,7 +2,9 @@ import styles from "../style";
 
 import HeroImage from "../images/robot.png";
 import Googleplay from "../images/googleplayjipa.png";
-import Appstore from "../images/applestore.png";
+import Appstore from "../images/applenew.png";
+import { HiShieldCheck } from "react-icons/hi2";
+
 
 
 
@@ -16,7 +18,7 @@ const Hero = () => {
       <div>
       <section  className={`flex md:flex-row flex-col `}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 `}>
-      <div className="flex  flex-row items-center pt-28 md:pt-32 py-[6px] px-4  rounded-[10px] mb-6">
+      <div className="flex  flex-row items-center pt-28 md:pt-36 py-[6px] px-4  rounded-[10px] mb-6">
           {/* <img src={discount} alt="discount" className="w-[32px] h-[32px]" /> */}
        
           <p className={`${styles.paragraph} text-sm ml-12`}>
@@ -46,37 +48,61 @@ const Hero = () => {
         Download the JIPA app to experience the ease and speed of our loan application process.
         </p>
         {/* Download buttons */}
-        <div className=" flex md:pl-16 pl-10 pt-6 md:mb-20 md:pt-5">
+        <div className=" flex md:pl-16 pl-10 pt-6 md:pb-4 md:pt-5">
+          <div className="pr-4">
+          <img className="w-36  md:w-40 pt-7 md:pt-2 " alt="googleplay" src={Googleplay}/>
+
+          </div>  <br/> 
           <div>
-          <img className="w-32 md:w-40 pt-2 md:pt-4" alt="googleplay" src={Googleplay}/>
+          <img className="w-32  md:pt-2 md:w-40" alt="appstore" src={Appstore}/>
 
           </div>
-          <div>
-          <img className="w-36  md:pt-1 md:w-48" alt="googleplay" src={Appstore}/>
-
-          </div>
+         
           
         </div>
+
+<div className="flex ml-16">
+<div className="bg-rose-300  px-1 py-1 rounded-full">
+        <HiShieldCheck size={25}/>
         
+        </div>
+        <div>  <p className="ml-4 pt-1">   Licensed by Bank of Ghana</p> </div>
+       
+     
+     
       </div>
+      <div>
+
+      </div>
+   
+
+</div>
+       
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
       
        
         <img className="w-[80%] pt-14 h-[100%] relative z-[5]" alt="hero" src={HeroImage}/>
 
-        {/* gradient start */}
-        <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
-        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
-        <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
-        {/* gradient end */}
       </div>
 
+     <div>
+   
+     </div>
+
+ 
+      
+    
+   
      
     </section>
+    <div className="bg-red-200 ">
+    <p>hello</p>
+    </div>
+
 
       </div>
-
+   
     </div>
   
   );

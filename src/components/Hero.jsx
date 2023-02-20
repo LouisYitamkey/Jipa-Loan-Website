@@ -46,7 +46,7 @@ const Hero = () => {
         Download the JIPA app to experience the ease and speed of our loan application process.
         </p>
         {/* Download buttons */}
-        <div className=" flex md:pl-16 pl-10 pt-4 md:mb-20 md:pt-5">
+        <div className=" flex md:pl-16 pl-10 pt-6 md:mb-20 md:pt-5">
           <div>
           <img className="w-32 md:w-40 pt-2 md:pt-4" alt="googleplay" src={Googleplay}/>
 

@@ -16,7 +16,7 @@ const Hero = () => {
       <div>
       <section  className={`flex md:flex-row flex-col `}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 `}>
-      <div className="flex  flex-row items-center pt-20 md:pt-32 py-[6px] px-4  rounded-[10px] mb-6">
+      <div className="flex  flex-row items-center pt-28 md:pt-32 py-[6px] px-4  rounded-[10px] mb-6">
           {/* <img src={discount} alt="discount" className="w-[32px] h-[32px]" /> */}
        
           <p className={`${styles.paragraph} text-sm ml-12`}>
@@ -41,7 +41,7 @@ const Hero = () => {
           Provider.
         </h1>
       
-        <p  className={`${styles.paragraph}   max-w-[470px] text-center md:text-left   md:px-16 md:pt-3 text-slate-900  text-xl mt-5`}>
+        <p  className={`${styles.paragraph}   max-w-[470px] text-center md:text-left   md:pl-16 md:pt-3 text-slate-900  text-xl mt-5`}>
 
         Download the JIPA app to experience the ease and speed of our loan application process.
         </p>

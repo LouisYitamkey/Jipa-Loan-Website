@@ -20,7 +20,7 @@ const Hero = () => {
           {/* <img src={discount} alt="discount" className="w-[32px] h-[32px]" /> */}
        
           <p className={`${styles.paragraph} text-sm ml-12`}>
-            <p className="bg-white md:py-1 py-1 rounded-3xl md:rounded-3xl ">&nbsp; <span className="bg-rose-200  md:px-2 px-1   rounded-3xl"> Latest</span> Loans  in 30 minutes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            <p className="bg-white md:py-1 py-1 rounded-3xl md:rounded-3xl ">&nbsp; <span className="bg-rose-300  md:px-2 px-1   rounded-3xl"> Latest</span> Loans  in 30 minutes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
           </p>
         </div>
 
@@ -46,7 +46,7 @@ const Hero = () => {
         Download the JIPA app to experience the ease and speed of our loan application process.
         </p>
         {/* Download buttons */}
-        <div className=" flex md:pl-16 pl-10 pt-4 md:mb-20 md:pt-5">
+        <div className=" flex md:pl-16 pl-10 pt-6gi md:mb-20 md:pt-5">
           <div>
           <img className="w-32 md:w-40 pt-2 md:pt-4" alt="googleplay" src={Googleplay}/>
 

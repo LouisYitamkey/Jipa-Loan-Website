@@ -69,7 +69,7 @@ const Swiper = () => (
 
         </div>
         <div className='pt-10'>
-            <span className='text-xs md:text-base'> Instant Review </span>
+            <span className='text-xs md:text-base'> Instantt Review </span>
          <div className='flex justify-center items-center'>
          <img src={Icon}/>
 

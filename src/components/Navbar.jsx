@@ -5,6 +5,7 @@ import { GrClose } from "react-icons/gr";
 import Logo from "../images/pavelonlogo.png";
 import { navLinks } from "../constants/index";
 import Button from '@mui/material/Button';
+import ResponsiveDialog from "./ResponsiveDialog";
 
 
 
@@ -24,7 +25,8 @@ const Navbar = () => {
         {navLinks.map((link) => (
           <li className="hover:cursor-pointer decoration-2 hover:underline underline-offset-8 decoration-gray-800"  key={link.id}>{link.title}</li>
         ))}
-          <Button className="bg-[#080357]" variant="contained">Contact Sales</Button>
+       
+          <ResponsiveDialog/>
 
       </ul>
 
@@ -37,18 +39,21 @@ const Navbar = () => {
               toggle ? "flex" : "hidden"
             }  bg-blue-200 absolute top-20 right-0 mr-6 px-5 py-5  min-w-[160px] rounded-sm sidebar`}
           >
+           
             <ul className="list-none  font-normal text-sm text-white flex-col justify-end items-center flex-1  ">
               {navLinks.map((link) => (
                 <li key={link.id} className="pl-2 pr-16 py-2 font-bold text-lg">
+                 
                   
                   {link.title}
-                 
-                
+               
                 </li>
               
               ))}
-            
+ 
             </ul>
+         
+                  
           
           </div>
         </div>

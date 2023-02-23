@@ -5,7 +5,7 @@ import Googleplay from "../images/googleplayjipa.png";
 import Appstore from "../images/applenew.png";
 import Herosecond from "./Herosecond";
 import Footer from "./Footer";
-import { testimonials } from "../constants";
+import TestimonialsSwiper from  "./TestimonialsSwiper";
 
 
 
@@ -115,7 +115,8 @@ const Hero = () => {
     <Herosecond/>
 
     </div>
-    <div className="md:py-64 py-24 bg-white">
+    <div className=" md:px-20 py-10 md:py-24 bg-white">
+    <TestimonialsSwiper/>
 
     </div>
     <div>

@@ -22,3 +22,10 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
+
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  
+}

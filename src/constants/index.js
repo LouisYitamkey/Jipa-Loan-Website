@@ -73,18 +73,30 @@ export const footerLinks = [
 export const testimonials = [
   {
     id: 0,
-    title: "Home",
+    title: "Nurse",
+    name: "Ellis Otto Lartey",
+    testimony: "I was in urgent need of money for a medical emergency and had no idea where to turn. That's when I discovered this loan app, and it changed my life. The application process was simple, and I received my loan in just a few hours. The interest rates were reasonable, and the repayment terms were flexible. The customer service was exceptional.",
+    image: "https://media.licdn.com/dms/image/C4E03AQHp-J5WroL9tw/profile-displayphoto-shrink_400_400/0/1657189459507?e=1682553600&v=beta&t=0MONmfTY-nrTB-mRZC9wn1___zUdBJJDxppczxbfPrQ",
   },
   {
     id: 1,
-    title: "Product",
+    title: "Soldier",
+    name: "Roseina Duphey",
+    testimony: "I was in urgent need of money for a medical emergency and had no idea where to turn. That's when I discovered this loan app, and it changed my life. The application process was simple, and I received my loan in just a few hours. The interest rates were reasonable, and the repayment terms were flexible. The customer service was exceptional.",
+  image: "https://media.licdn.com/dms/image/C4E03AQHp-J5WroL9tw/profile-displayphoto-shrink_400_400/0/1657189459507?e=1682553600&v=beta&t=0MONmfTY-nrTB-mRZC9wn1___zUdBJJDxppczxbfPrQ"
   },
   {
     id: 2,
-    title: "Features",
+    title: "Teacher",
+    name: "Esther Lamptey",
+    testimony: "I was in urgent need of money for a medical emergency and had no idea where to turn. That's when I discovered this loan app, and it changed my life. The application process was simple, and I received my loan in just a few hours. The interest rates were reasonable, and the repayment terms were flexible. The customer service was exceptional.",
+    image: "https://media.licdn.com/dms/image/C4E03AQHp-J5WroL9tw/profile-displayphoto-shrink_400_400/0/1657189459507?e=1682553600&v=beta&t=0MONmfTY-nrTB-mRZC9wn1___zUdBJJDxppczxbfPrQ",
   },
   {
     id: 3,
-    title: "FAQ's",
+    name: "Julius Tensa",
+    testimony: "I was in urgent need of money for a medical emergency and had no idea where to turn. That's when I discovered this loan app, and it changed my life. The application process was simple, and I received my loan in just a few hours. The interest rates were reasonable, and the repayment terms were flexible. The customer service was exceptional.",
+    title: "Developer",
+    image: "https://media.licdn.com/dms/image/C4E03AQHp-J5WroL9tw/profile-displayphoto-shrink_400_400/0/1657189459507?e=1682553600&v=beta&t=0MONmfTY-nrTB-mRZC9wn1___zUdBJJDxppczxbfPrQ",
   },
 ];

@@ -4,6 +4,9 @@ import HeroImage from "../images/robot.png";
 import Googleplay from "../images/googleplayjipa.png";
 import Appstore from "../images/applenew.png";
 import Herosecond from "./Herosecond";
+import Footer from "./Footer";
+import { testimonials } from "../constants";
+
 
 
 import Swiper from "./Swiper";
@@ -40,7 +43,7 @@ const Hero = () => {
         
         </div>
        
-        <h1 className=" hidden md:block md:px-16 font-bold  ss:text-[68px] text-[70px] text-[#080357]   ss:leading-[100.8px] leading-[75px] w-full">
+        <h1 className=" hidden md:block md:px-16 font-bold  ss:text-[68px] text-[60px] text-[#080357]   ss:leading-[100.8px] leading-[75px] w-full">
           Provider.
         </h1>
       
@@ -101,7 +104,7 @@ const Hero = () => {
       
   
     </div>
-    <div>  </div>
+  
     <div>
  
       
@@ -112,7 +115,13 @@ const Hero = () => {
     <Herosecond/>
 
     </div>
-    write here
+    <div className="md:py-64 py-24 bg-white">
+
+    </div>
+    <div>
+<Footer/>
+    </div>
+    
     <div> 
   
     </div>

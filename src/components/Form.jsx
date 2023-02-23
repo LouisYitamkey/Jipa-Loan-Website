@@ -73,7 +73,7 @@ export default function Form() {
       <div className="">
     <TextField
         name="message"
-        label="message"
+        label="Message"
         value={formData.message}
         onChange={handleChange}
         className="  w-[300px] md:w-[300px]"

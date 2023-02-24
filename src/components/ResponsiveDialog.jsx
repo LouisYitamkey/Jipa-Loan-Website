@@ -47,7 +47,7 @@ export default function ResponsiveDialog() {
         aria-labelledby="responsive-dialog-title"
       >
         <DialogTitle id="responsive-dialog-title">
-          <p className=' md:pl-5 md:pt-4'>  Please fill out this form.</p>
+          <p className=' md:pl-5   md:pt-4'>  Please fill out this form.</p>
         </DialogTitle>
         <DialogContent>
           <DialogContentText>

@@ -40,21 +40,21 @@ const Footer = () => (
     </div>
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-white">
-      <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
+      <p className="font-poppins font-normal text-center text-[10px] md:text-[14px] leading-[27px] text-white">
         Copyright &#169;. 2023 Jipa. All Rights Reserved.
       </p>
       <div className="flex flex-row mt-6 md:mt-0">
         <div className="bg-white  hover:bg-slate-300 px-2 mx-2 py-2 rounded-full">  
-        <ImFacebook color='#080357 ' className="" size={20}/> 
+        <ImFacebook color='#080357 ' className="" size={15}/> 
 
         </div>
         <div className="bg-white hover:bg-slate-300 px-2 py-2  mx-2 rounded-full">
-        <ImTwitter color='#080357' size={20}/>
+        <ImTwitter color='#080357' size={15}/>
 
         </div>
         <div className="bg-white hover:bg-slate-300 px-2 py-2 mx-2 rounded-full">
 
-        <ImWhatsapp color='#080357' size={20}/>
+        <ImWhatsapp color='#080357' size={15}/>
 
         </div>
    

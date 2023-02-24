@@ -6,9 +6,8 @@ import Appstore from "../images/applenew.png";
 import Herosecond from "./Herosecond";
 import Footer from "./Footer";
 import TestimonialsSwiper from  "./TestimonialsSwiper";
-
-
-
+import Faqs from "./Faqs";
+import CTA from "./Cta";
 import Swiper from "./Swiper";
 
 
@@ -118,6 +117,12 @@ const Hero = () => {
     <div className=" md:px-20 py-10 md:py-24 bg-white">
     <TestimonialsSwiper/>
 
+    </div>
+    <div className="md:py-20"> 
+    <Faqs/> 
+    </div>
+    <div>
+    <CTA/>
     </div>
     <div>
 <Footer/>

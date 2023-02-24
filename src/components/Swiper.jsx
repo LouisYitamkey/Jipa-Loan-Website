@@ -30,14 +30,14 @@ const Swiper = () => (
         <div className='pt-10 md:pt-10  pb-10 md:pb-10'>
     
 
-        <div className='flex justify-center items-center'>
+        <div className='flex  justify-center items-center'>
          {/* <img className='mb-4' src={Fixedrate}/> */}
          <img className='w-12 mb-6' alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNjQiIGhlaWdodD0iNjQiCnZpZXdCb3g9IjAgMCA2NCA2NCI+CjxyZWN0IHdpZHRoPSIxMCIgaGVpZ2h0PSIxMSIgeD0iNTAiIHk9IjUxIiBmaWxsPSIjYmY3Mzc1IiB0cmFuc2Zvcm09InJvdGF0ZSgtMTgwIDU1IDU2LjUpIj48L3JlY3Q+PHJlY3Qgd2lkdGg9IjEwIiBoZWlnaHQ9IjIzIiB4PSIyNyIgeT0iMzkiIGZpbGw9IiNjYzdhN2QiIHRyYW5zZm9ybT0icm90YXRlKC0xODAgMzIgNTAuNSkiPjwvcmVjdD48cmVjdCB3aWR0aD0iMTAiIGhlaWdodD0iMzciIHg9IjQiIHk9IjI1IiBmaWxsPSIjZDk4Mjg1IiB0cmFuc2Zvcm09InJvdGF0ZSgtMTgwIDkgNDMuNSkiPjwvcmVjdD48cGF0aCBmaWxsPSIjYTY2NDY2IiBkPSJNNTcsNTF2NmEyLDIsMCwwLDEtMiwySDUwdjNINjBWNTFaIj48L3BhdGg+PHBhdGggZmlsbD0iI2IzNmI2ZCIgZD0iTTM0LDM5VjU3YTIsMiwwLDAsMS0yLDJIMjd2M0gzN1YzOVoiPjwvcGF0aD48cGF0aCBmaWxsPSIjYmY3Mzc1IiBkPSJNMTEsMjVWNTdhMiwyLDAsMCwxLTIsMkg0djNIMTRWMjVaIj48L3BhdGg+PGNpcmNsZSBjeD0iNDkiIGN5PSIxNSIgcj0iMTMiIGZpbGw9IiM3Y2IyZjgiPjwvY2lyY2xlPjxwYXRoIGZpbGw9IiM2ZjlmZGUiIGQ9Ik01Ny4xMzMsNC44NjdBMTIuOTkyLDEyLjk5MiwwLDAsMSwzOC44NjcsMjMuMTMzLDEyLjk5NCwxMi45OTQsMCwxLDAsNTcuMTMzLDQuODY3WiI+PC9wYXRoPjxjaXJjbGUgY3g9IjUzIiBjeT0iMTgiIHI9IjIiIGZpbGw9IiNkOWUxZTYiPjwvY2lyY2xlPjxjaXJjbGUgY3g9IjQ1IiBjeT0iMTIiIHI9IjIiIGZpbGw9IiNkOWUxZTYiPjwvY2lyY2xlPjxwYXRoIGQ9Ik02MSw1MWExLDEsMCwwLDAtMS0xSDUwYTEsMSwwLDAsMC0xLDFWNjFIMzhWMzlhMSwxLDAsMCwwLTEtMUgyN2ExLDEsMCwwLDAtMSwxVjYxSDE1VjI1YTEsMSwwLDAsMC0xLTFINGExLDEsMCwwLDAtMSwxVjYxSDF2Mkg2M1Y2MUg2MVpNMTMsNjFINVYyNmg4Wm0yMywwSDI4VjQwaDhabTIzLDBINTFWNTJoOFoiPjwvcGF0aD48cGF0aCBkPSJNOS43MjUsMTEuMzEybC0xLjQ1LDEuMzc2Yy4xODYuMiwxOC4zOSwxOS4xNDMsNDQuMSwyOC40NTZsLTIuOTE0LDEuMzkuODYxLDEuOEw1NS40MzEsNDEuOWExLDEsMCwwLDAsLjQ3MS0xLjMzM2wtMi40MzYtNS4xMDUtMS44Ljg2MSwxLjQsMi45NDFDMjcuODA5LDMwLjEyMiw5LjkwOCwxMS41LDkuNzI1LDExLjMxMloiPjwvcGF0aD48cGF0aCBkPSJNNDksMUExNCwxNCwwLDEsMCw2MywxNSwxNC4wMTUsMTQuMDE1LDAsMCwwLDQ5LDFabTAsMjZBMTIsMTIsMCwxLDEsNjEsMTUsMTIuMDEzLDEyLjAxMywwLDAsMSw0OSwyN1oiPjwvcGF0aD48cmVjdCB3aWR0aD0iMTQuMDAxIiBoZWlnaHQ9IjIiIHg9IjQxLjk5OSIgeT0iMTQiIHRyYW5zZm9ybT0icm90YXRlKC00NSA0OSAxNSkiPjwvcmVjdD48cGF0aCBkPSJNNTAuODc5LDE1Ljg3OWEzLDMsMCwxLDAsNC4yNDIsMEEzLDMsMCwwLDAsNTAuODc5LDE1Ljg3OVptMi44MjgsMi44MjhhMSwxLDAsMSwxLDAtMS40MTRBMSwxLDAsMCwxLDUzLjcwNywxOC43MDdaIj48L3BhdGg+PHBhdGggZD0iTTQ3LjEyMSwxNC4xMjFBMywzLDAsMSwwLDQ1LDE1LDMsMywwLDAsMCw0Ny4xMjEsMTQuMTIxWm0tMi44MjgtMi44MjhhMSwxLDAsMSwxLDAsMS40MTRBMSwxLDAsMCwxLDQ0LjI5MywxMS4yOTNaIj48L3BhdGg+Cjwvc3ZnPg=="/>
        
          </div>
            {/* <p> Interest Section</p> */}
         
-           <h1> <span className='  text-xs md:pt-2 font-semibold text-[#080357] md:text-white md:text-base text-center   '> Lowest Interest  Rates </span> </h1> 
+           <h1> <span className=' md:px-2 px-2 py-1 md:py-1 bg-slate-600 rounded-lg  text-xs md:pt-2 font-normal text-white md:text-white md:text-base text-center   '> Lowest Interest  Rates </span> </h1> 
          
           
         </div>
@@ -53,7 +53,7 @@ const Swiper = () => (
 
  </div>
    {/* <p> Interest Section</p> */}
-   <h1> <span className='   text-xs font-semibold text-[#080357] md:text-white md:text-base text-center    '> No Hidden Fees</span> </h1> 
+   <h1> <span className='   md:px-3 px-2 py-1 md:py-1 bg-slate-600 rounded-lg  text-xs font-normal text-white md:text-white md:text-base text-center    '> No Hidden Fees</span> </h1> 
 
 
 
@@ -64,7 +64,7 @@ const Swiper = () => (
          <img className='mb-4 md:mb-5 w-14 md:w-12' src={Fixedrate}/>
 
          </div>
-         <span className='text-xs font-semibold  text-[#080357] md:text-white md:text-base'> No Collateral </span>
+         <span className='text-xs  md:px-3 px-2 py-1 md:py-1 bg-slate-600 rounded-lg font-normal  text-white md:text-white md:text-base'> No Collateral </span>
         </div>
 
       </div>
@@ -84,7 +84,7 @@ viewBox="0 0 50 50">
 
          </div>
            {/* <p> Interest Section</p> */}
-           <h1> <span className=' text-xs  text-[#080357] md:text-white font-semibold md:text-base text-center   '> Instant Application </span> </h1> 
+           <h1> <span className=' text-xs   md:px-3 px-2 py-1 md:py-1 bg-slate-600 rounded-lg text-white md:text-white font-normal md:text-base text-center   '> Instant Application </span> </h1> 
   
        
 
@@ -101,7 +101,7 @@ viewBox="0 0 100 100">
 
  </div>
    {/* <p> Interest Section</p> */}
-   <h1> <span className='  text-xs font-semibold md:text-base text-center  text-[#080357] md:text-white  '> Instant Review</span> </h1> 
+   <h1> <span className='  md:px-3 px-2 py-1 md:py-1 bg-slate-600 rounded-lg text-xs font-normal md:text-base text-center  text-white md:text-white  '> Instant Review</span> </h1> 
 
 
 
@@ -112,7 +112,7 @@ viewBox="0 0 100 100">
      <img className='w-18 md:w-14  mb-1 md:mb-4' src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/null/external-instant-modern-dating-flaticons-flat-flat-icons.png"/>
 
          </div>
-         <span className='text-xs    text-[#080357] md:text-white font-semibold md:text-base'> Instant Cash </span>
+         <span className='text-xs   md:px-3 px-2 py-1 md:py-1 bg-slate-600 rounded-lg   text-white md:text-white font-normal md:text-base'> Instant Cash </span>
         </div>
 
       </div>
@@ -131,7 +131,7 @@ viewBox="0 0 256 256">
 
          </div>
            {/* <p> Interest Section</p> */}
-           <h1> <span className=' text-xs  text-[#080357] md:text-white font-semibold md:text-base text-center   '> Flexible Re-payment </span> </h1> 
+           <h1> <span className=' text-xs  text-white  md:px-3 px-2 py-1 md:py-1 bg-slate-600 rounded-lg md:text-white font-normal md:text-base text-center   '> Flexible Re-payment </span> </h1> 
   
        
 
@@ -144,7 +144,7 @@ viewBox="0 0 256 256">
 
  </div>
    {/* <p> Interest Section</p> */}
-   <h1> <span className='  text-xs font-semibold md:text-base text-center   text-[#080357] md:text-white  '> Pay-Off Option </span> </h1> 
+   <h1> <span className='  text-xs  md:px-3 px-2 py-1 md:py-1 bg-slate-600 rounded-lg font-normal md:text-base text-center   text-[white] md:text-white  '> Pay-Off Option </span> </h1> 
 
 
 
@@ -159,7 +159,7 @@ viewBox="0 0 464.001 464.001">
 </svg>
 
          </div>
-         <span className='text-xs font-semibold pt-4   text-[#080357] md:text-white md:text-base'> Variable payments </span>
+         <span className='text-xs  md:px-3 px-2 py-1 md:py-1 bg-slate-600 rounded-lg font-normal    text-white md:text-white md:text-base'> Variable payments </span>
         </div>
 
       </div>

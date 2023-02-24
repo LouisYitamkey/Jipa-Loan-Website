@@ -34,7 +34,7 @@ export default function Form() {
         value={formData.firstName}
         onChange={handleChange}
         size="small"
-        className=" w-[300px] md:w-[300px]"
+        className=" mt-4 md:mt-0 w-[300px] md:w-[300px]"
         required
        
       /> </div>

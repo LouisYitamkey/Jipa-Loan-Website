@@ -1,20 +1,31 @@
+import Nurse from "../images/nursenew.png";
+
+import Doctor from "../images/doctor.jpg";
+
+import Accountant from "../images/accountantt.png";
+
+import Femalesec from "../images/femalesec.jpeg"
+
+
+
 export const navLinks = [
   {
     id: 0,
-    title: "Home",
+    title: "Product",
+    targetId: "product"
+
   },
   {
     id: 1,
-    title: "Product",
+    title: "Features",
+    targetId: "features"
   },
   {
     id: 2,
-    title: "Features",
+    title: "Testimonials",
+    targetId: "testimonials"
   },
-  {
-    id: 3,
-    title: "FAQ's",
-  },
+ 
 ];
 
 
@@ -74,29 +85,35 @@ export const testimonials = [
   {
     id: 0,
     title: "Nurse",
-    name: "Ellis Otto Lartey",
+    name: " Mabel Ofori",
     testimony: "I was in urgent need of money for a medical emergency and had no idea where to turn. That's when I discovered this loan app, and it changed my life. The application process was simple, and I received my loan in just a few hours. The interest rates were reasonable, and the repayment terms were flexible. The customer service was exceptional.",
-    image: "https://media.licdn.com/dms/image/C4E03AQHp-J5WroL9tw/profile-displayphoto-shrink_400_400/0/1657189459507?e=1682553600&v=beta&t=0MONmfTY-nrTB-mRZC9wn1___zUdBJJDxppczxbfPrQ",
+     image: Nurse
   },
+
   {
     id: 1,
-    title: "Soldier",
-    name: "Roseina Duphey",
+    name: "Esther Ofosu",
     testimony: "I was in urgent need of money for a medical emergency and had no idea where to turn. That's when I discovered this loan app, and it changed my life. The application process was simple, and I received my loan in just a few hours. The interest rates were reasonable, and the repayment terms were flexible. The customer service was exceptional.",
-  image: "https://media.licdn.com/dms/image/C4E03AQHp-J5WroL9tw/profile-displayphoto-shrink_400_400/0/1657189459507?e=1682553600&v=beta&t=0MONmfTY-nrTB-mRZC9wn1___zUdBJJDxppczxbfPrQ"
+    title: "Administrator",
+    image: Femalesec,
   },
   {
     id: 2,
-    title: "Teacher",
-    name: "Esther Lamptey",
+    title: "Accountant",
+    name: " Elton Ofori",
     testimony: "I was in urgent need of money for a medical emergency and had no idea where to turn. That's when I discovered this loan app, and it changed my life. The application process was simple, and I received my loan in just a few hours. The interest rates were reasonable, and the repayment terms were flexible. The customer service was exceptional.",
-    image: "https://media.licdn.com/dms/image/C4E03AQHp-J5WroL9tw/profile-displayphoto-shrink_400_400/0/1657189459507?e=1682553600&v=beta&t=0MONmfTY-nrTB-mRZC9wn1___zUdBJJDxppczxbfPrQ",
+    image: Accountant,
   },
   {
     id: 3,
-    name: "Julius Tensa",
+    title: "Medical Doctor",
+    name: "Micheal Otoo",
     testimony: "I was in urgent need of money for a medical emergency and had no idea where to turn. That's when I discovered this loan app, and it changed my life. The application process was simple, and I received my loan in just a few hours. The interest rates were reasonable, and the repayment terms were flexible. The customer service was exceptional.",
-    title: "Developer",
-    image: "https://media.licdn.com/dms/image/C4E03AQHp-J5WroL9tw/profile-displayphoto-shrink_400_400/0/1657189459507?e=1682553600&v=beta&t=0MONmfTY-nrTB-mRZC9wn1___zUdBJJDxppczxbfPrQ",
+  
+  image: Doctor,
   },
+
+
 ];
+
+

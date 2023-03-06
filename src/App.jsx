@@ -17,9 +17,7 @@ function App() {
           <Route path="/" element={ <Hero/> } />
         </Routes>
 
-        <div className={`${styles.flexStart} ${styles.paddingX}  bg-slate-200`}>
-          <div className={`${styles.boxWidth} `}></div>
-        </div>
+      
       </div>
     </BrowserRouter>
   );

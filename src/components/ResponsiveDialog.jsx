@@ -13,7 +13,7 @@ import Form from './Form';
 
 export default function ResponsiveDialog() {
   const [open, setOpen] = React.useState(false);
-  const [formData, setFormData] = React.useState({}); // add a state variable to store the form data
+  
   const theme = useTheme();
   const fullScreen = useMediaQuery(theme.breakpoints.down('md'));
 
@@ -25,19 +25,11 @@ export default function ResponsiveDialog() {
     setOpen(false);
   };
 
-  const handleFormSubmit = () => {
-    // send the form data to the server using a fetch or axios request
-    console.log(formData); // log the form data to the console for testing
-  };
 
-  const handleFormChange = (event) => {
-    const { name, value } = event.target;
-    setFormData((prevFormData) => ({ ...prevFormData, [name]: value }));
-  };
 
   return (
     <div className=''>
-      <Button className='font-semibold' variant="outlined" onClick={handleClickOpen}>
+      <Button className='font-semibold text-white hover:bg-[#495dcd] bg-[#080357] px-4 py-2' variant="contained" onClick={handleClickOpen}>
         Contact Sales
       </Button>
       <Dialog
@@ -47,21 +39,19 @@ export default function ResponsiveDialog() {
         aria-labelledby="responsive-dialog-title"
       >
         <DialogTitle id="responsive-dialog-title">
-          <p className=' md:pl-5   md:pt-4'>  Please fill out this form.</p>
+          <p className=' md:pl-5   md:pt-5'>  Please fill out this form.</p>
         </DialogTitle>
         <DialogContent>
           <DialogContentText>
-            <Form onChange={handleFormChange} />
+            <Form  />
           </DialogContentText>
         </DialogContent>
-        <DialogActions>
-            <div className=' md:pb-5'>
+        <DialogActions className='mr-2'>
+            <div className=' '>
             <Button autoFocus onClick={handleClose}>
             Cancel
           </Button>
-          <Button className='bg-blue-400 hover:bg-blue-300 md:ml-4 md:mr-14 text-white' onClick={handleFormSubmit} autoFocus> {/* modify the Send button to call the handleFormSubmit function */}
-            Send 
-          </Button>
+        
 
             </div>
       
